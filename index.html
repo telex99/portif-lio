@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café do Sol</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"> <!-- Se você criar um arquivo de estilo personalizado -->
+</head>
+<body>
+    <div class="container">
+        <header class="text-center mt-5">
+            <h1>Café do Sol</h1>
+            <p>O melhor lugar para saborear um café fresco e delicioso!</p>
+        </header>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Início</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cardapio">Cardápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="sobre" class="mt-4">
+            <h2>Sobre Nós</h2>
+            <p>No Café do Sol, servimos os melhores grãos de café selecionados e deliciosos acompanhamentos em um ambiente acolhedor.</p>
+        </section>
+
+        <section id="cardapio" class="mt-4">
+            <h2>Nosso Cardápio</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Café Expresso - R$ 5,00</li>
+                <li class="list-group-item">Cappuccino - R$ 7,00</li>
+                <li class="list-group-item">Bolo de Chocolate - R$ 6,00</li>
+                <li class="list-group-item">Torrada com Manteiga - R$ 4,00</li>
+            </ul>
+        </section>
+
+        <section id="contato" class="mt-4">
+            <h2>Contato</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" class="form-control" id="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea class="form-control" id="mensagem" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+
+        <footer class="text-center mt-5">
+            <p>&copy; 2024 Café do Sol. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
